@@ -1,0 +1,629 @@
+[
+    {
+        "enunciado": "Qual organela é conhecida como a 'usina de energia' da célula?",
+        "alternativas": [
+            "a) Núcleo",
+            "b) Mitocôndria",
+            "c) Ribossomo",
+            "d) Complexo de Golgi"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "O que é a carioteca?",
+        "alternativas": [
+            "a) Membrana nuclear",
+            "b) Citoplasma",
+            "c) DNA",
+            "d) RNA"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "Qual é a função principal dos lisossomos?",
+        "alternativas": [
+            "a) Síntese proteica",
+            "b) Digestão intracelular",
+            "c) Produção de energia",
+            "d) Transporte de substâncias"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual destes NÃO faz parte da teoria celular?",
+        "alternativas": [
+            "a) Todas as células vêm de células pré-existentes",
+            "b) Todos os organismos são compostos por células",
+            "c) A célula é a menor unidade estrutural da vida",
+            "d) Todas as células possuem núcleo definido"
+        ],
+        "respostaCorreta": "d",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual estrutura é responsável pela síntese de proteínas?",
+        "alternativas": [
+            "a) Mitocôndria",
+            "b) Ribossomo",
+            "c) Lisossomo",
+            "d) Centríolo"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "O que é osmose?",
+        "alternativas": [
+            "a) Transporte ativo",
+            "b) Difusão da água através de membranas",
+            "c) Fagocitose",
+            "d) Bomba de sódio e potássio"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "Qual organela contém enzimas para degradação de peróxido de hidrogênio?",
+        "alternativas": [
+            "a) Lisossomo",
+            "b) Peroxissomo",
+            "c) Vacúolo",
+            "d) Retículo endoplasmático"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "O que é o citoesqueleto?",
+        "alternativas": [
+            "a) Parede celular",
+            "b) Conjunto de filamentos proteicos",
+            "c) Membrana plasmática",
+            "d) Núcleo celular"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "Qual é a principal função do complexo de Golgi?",
+        "alternativas": [
+            "a) Produção de energia",
+            "b) Modificação e empacotamento de proteínas",
+            "c) Síntese de DNA",
+            "d) Digestão celular"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que são histonas?",
+        "alternativas": [
+            "a) Proteínas que envolvem o DNA",
+            "b) Lipídios da membrana",
+            "c) Carboidratos energéticos",
+            "d) Enzimas digestivas"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual destes processos NÃO ocorre no retículo endoplasmático rugoso?",
+        "alternativas": [
+            "a) Síntese de proteínas",
+            "b) Dobramento de proteínas",
+            "c) Glicosilação de proteínas",
+            "d) Síntese de lipídios"
+        ],
+        "respostaCorreta": "d",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "O que são desmossomos?",
+        "alternativas": [
+            "a) Junções celulares que permitem comunicação",
+            "b) Estruturas que promovem adesão entre células",
+            "c) Organelas responsáveis pela digestão",
+            "d) Componentes do citoesqueleto"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual é a função principal dos centríolos?",
+        "alternativas": [
+            "a) Organização do fuso mitótico",
+            "b) Síntese de ATP",
+            "c) Transporte vesicular",
+            "d) Armazenamento de DNA"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que diferencia o retículo endoplasmático liso do rugoso?",
+        "alternativas": [
+            "a) Presença de ribossomos",
+            "b) Cor",
+            "c) Tamanho",
+            "d) Localização na célula"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual é a composição química principal da membrana plasmática?",
+        "alternativas": [
+            "a) Proteínas e carboidratos",
+            "b) Fosfolipídios e proteínas",
+            "c) Ácidos nucleicos e lipídios",
+            "d) Glicídios e água"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é o nucléolo?",
+        "alternativas": [
+            "a) Uma organela independente do núcleo",
+            "b) Uma região do núcleo onde se produz ribossomos",
+            "c) O mesmo que cromatina",
+            "d) Uma estrutura presente apenas em procariotos"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "Qual destes processos requer energia (ATP)?",
+        "alternativas": [
+            "a) Difusão simples",
+            "b) Osmose",
+            "c) Transporte ativo",
+            "d) Difusão facilitada"
+        ],
+        "respostaCorreta": "c",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que são autofagossomos?",
+        "alternativas": [
+            "a) Vesículas que digerem organelas celulares velhas",
+            "b) Estruturas que produzem energia",
+            "c) Componentes da parede celular",
+            "d) Proteínas do citoesqueleto"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual é a função dos plastídios em células vegetais?",
+        "alternativas": [
+            "a) Armazenamento e síntese de moléculas",
+            "b) Digestão celular",
+            "c) Síntese de ATP",
+            "d) Transporte de íons"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é a ciclose?",
+        "alternativas": [
+            "a) Divisão celular",
+            "b) Movimento do citoplasma",
+            "c) Formação de vesículas",
+            "d) Síntese de proteínas"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual organela é responsável pela fotossíntese?",
+        "alternativas": [
+            "a) Mitocôndria",
+            "b) Cloroplasto",
+            "c) Vacúolo",
+            "d) Peroxissomo"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "O que é a parede celular vegetal composta principalmente?",
+        "alternativas": [
+            "a) Celulose",
+            "b) Quitina",
+            "c) Peptidoglicano",
+            "d) Fosfolipídios"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual é a função do vacúolo em células vegetais?",
+        "alternativas": [
+            "a) Armazenamento e manutenção da pressão de turgor",
+            "b) Síntese de proteínas",
+            "c) Produção de energia",
+            "d) Digestão de organelas"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que são plasmodesmos?",
+        "alternativas": [
+            "a) Canais de comunicação entre células vegetais",
+            "b) Organelas de reserva energética",
+            "c) Proteínas do citoesqueleto",
+            "d) Enzimas digestivas"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual destes é um exemplo de transporte ativo?",
+        "alternativas": [
+            "a) Difusão do oxigênio",
+            "b) Bomba de sódio e potássio",
+            "c) Osmose",
+            "d) Difusão facilitada da glicose"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é a exocitose?",
+        "alternativas": [
+            "a) Eliminação de resíduos para fora da célula",
+            "b) Captura de partículas pela célula",
+            "c) Digestão de organelas",
+            "d) Síntese de ATP"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual organela é responsável pela síntese de lipídios?",
+        "alternativas": [
+            "a) Retículo endoplasmático rugoso",
+            "b) Retículo endoplasmático liso",
+            "c) Complexo de Golgi",
+            "d) Mitocôndria"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é a fagocitose?",
+        "alternativas": [
+            "a) Transporte de íons",
+            "b) Captura de partículas sólidas pela célula",
+            "c) Eliminação de resíduos",
+            "d) Síntese de proteínas"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "Qual destes NÃO é um tipo de junção celular?",
+        "alternativas": [
+            "a) Desmossomos",
+            "b) Tight junctions",
+            "c) Gap junctions",
+            "d) Microtúbulos"
+        ],
+        "respostaCorreta": "d",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "O que é o citosol?",
+        "alternativas": [
+            "a) O fluido dentro do núcleo",
+            "b) O fluido que preenche o citoplasma",
+            "c) O líquido dentro das mitocôndrias",
+            "d) O conteúdo dos lisossomos"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual é a função dos microtúbulos?",
+        "alternativas": [
+            "a) Manutenção da forma celular e transporte intracelular",
+            "b) Síntese de proteínas",
+            "c) Digestão de partículas",
+            "d) Armazenamento de DNA"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é a cromatina?",
+        "alternativas": [
+            "a) O DNA descondensado no núcleo",
+            "b) A membrana nuclear",
+            "c) O fluido nuclear",
+            "d) As organelas do núcleo"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "Qual organela contém DNA próprio?",
+        "alternativas": [
+            "a) Núcleo e retículo endoplasmático",
+            "b) Mitocôndria e cloroplasto",
+            "c) Complexo de Golgi e lisossomos",
+            "d) Ribossomos e peroxissomos"
+        ],
+        "respostaCorreta": "b",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "O que é o acrossomo?",
+        "alternativas": [
+            "a) Estrutura do espermatozoide que contém enzimas digestivas",
+            "b) Parte da mitocôndria",
+            "c) Componente do núcleo",
+            "d) Tipo de junção celular"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual é a função principal dos ribossomos?",
+        "alternativas": [
+            "a) Síntese proteica",
+            "b) Produção de ATP",
+            "c) Digestão intracelular",
+            "d) Armazenamento de lipídios"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "O que é o retículo endoplasmático?",
+        "alternativas": [
+            "a) Uma rede de membranas intracelulares",
+            "b) Uma organela responsável pela digestão",
+            "c) A membrana que envolve o núcleo",
+            "d) Uma estrutura do citoesqueleto"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual destes é um componente do citoesqueleto?",
+        "alternativas": [
+            "a) Microtúbulos",
+            "b) Ribossomos",
+            "c) Lisossomos",
+            "d) Peroxissomos"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é o complexo de Golgi?",
+        "alternativas": [
+            "a) Uma organela de empacotamento e secreção",
+            "b) Uma estrutura de produção de energia",
+            "c) Uma organela de digestão",
+            "d) Um componente do núcleo"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual é a função dos peroxissomos?",
+        "alternativas": [
+            "a) Detoxificação celular",
+            "b) Síntese de proteínas",
+            "c) Armazenamento de DNA",
+            "d) Produção de ATP"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que são vesículas?",
+        "alternativas": [
+            "a) Pequenos sacos membranosos para transporte",
+            "b) Organelas de produção de energia",
+            "c) Componentes do núcleo",
+            "d) Estruturas do citoesqueleto"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual é a função dos centríolos?",
+        "alternativas": [
+            "a) Organizar o fuso mitótico",
+            "b) Produzir energia",
+            "c) Sintetizar proteínas",
+            "d) Digerir partículas"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é a membrana plasmática?",
+        "alternativas": [
+            "a) A barreira seletiva da célula",
+            "b) A parede celular",
+            "c) O citoesqueleto",
+            "d) O fluido intracelular"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual organela é responsável pela respiração celular?",
+        "alternativas": [
+            "a) Mitocôndria",
+            "b) Cloroplasto",
+            "c) Núcleo",
+            "d) Retículo endoplasmático"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "O que é o núcleo celular?",
+        "alternativas": [
+            "a) A organela que contém o material genético",
+            "b) A membrana celular",
+            "c) O citoplasma",
+            "d) O citoesqueleto"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual é a função do lisossomo?",
+        "alternativas": [
+            "a) Digestão intracelular",
+            "b) Síntese proteica",
+            "c) Produção de energia",
+            "d) Armazenamento de DNA"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "O que é o citoplasma?",
+        "alternativas": [
+            "a) O conteúdo celular entre a membrana e o núcleo",
+            "b) A membrana celular",
+            "c) O núcleo",
+            "d) O retículo endoplasmático"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "Qual destes é um tipo de transporte passivo?",
+        "alternativas": [
+            "a) Difusão",
+            "b) Bomba de sódio e potássio",
+            "c) Endocitose",
+            "d) Exocitose"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é a pinocitose?",
+        "alternativas": [
+            "a) Captura de líquidos pela célula",
+            "b) Captura de sólidos",
+            "c) Eliminação de resíduos",
+            "d) Síntese de proteínas"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual é a função dos microfilamentos?",
+        "alternativas": [
+            "a) Movimento celular e suporte estrutural",
+            "b) Síntese de proteínas",
+            "c) Produção de energia",
+            "d) Armazenamento de lipídios"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 3
+    },
+    {
+        "enunciado": "Qual é a função principal do núcleo celular?",
+        "alternativas": [
+            "a) Armazenar e proteger o material genético",
+            "b) Produzir energia para a célula",
+            "c) Sintetizar proteínas",
+            "d) Digerir partículas estranhas"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 1
+    },
+    {
+        "enunciado": "O que são cromossomos?",
+        "alternativas": [
+            "a) Estruturas condensadas de DNA e proteínas",
+            "b) Organelas produtoras de energia",
+            "c) Vesículas de transporte",
+            "d) Componentes da parede celular"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "Qual é a função do retículo endoplasmático rugoso?",
+        "alternativas": [
+            "a) Síntese e modificação de proteínas",
+            "b) Produção de lipídios",
+            "c) Digestão celular",
+            "d) Armazenamento de água"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é a membrana nuclear?",
+        "alternativas": [
+            "a) Dupla camada lipídica que envolve o núcleo",
+            "b) Parede celular dos vegetais",
+            "c) Membrana dos cloroplastos",
+            "d) Estrutura dos ribossomos"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "Qual é a função do citoesqueleto?",
+        "alternativas": [
+            "a) Manter a forma celular e permitir movimento",
+            "b) Sintetizar DNA",
+            "c) Produzir ATP",
+            "d) Armazenar nutrientes"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que são flagelos?",
+        "alternativas": [
+            "a) Estruturas para locomoção celular",
+            "b) Organelas de digestão",
+            "c) Componentes do núcleo",
+            "d) Vesículas secretoras"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "Qual é a função do aparelho de Golgi?",
+        "alternativas": [
+            "a) Modificar, empacotar e distribuir proteínas",
+            "b) Produzir energia",
+            "c) Sintetizar DNA",
+            "d) Digerir organelas velhas"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 2
+    },
+    {
+        "enunciado": "O que é a endocitose?",
+        "alternativas": [
+            "a) Processo de ingestão de materiais pela célula",
+            "b) Eliminação de resíduos",
+            "c) Síntese de proteínas",
+            "d) Produção de ATP"
+        ],
+        "respostaCorreta": "a",
+        "dificuldade": 3
+    }
+]

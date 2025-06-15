@@ -1,0 +1,188 @@
+<!DOCTYlPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizBattle - Batalha de Citologia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Animação de células */
+        @keyframes moverCelulas {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-1000px, -1000px); }
+        }
+        
+        .celula {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tela Inicial -->
+    <div id="tela-inicial" class="screen active">
+        <div id="animacao-celulas"></div>
+        <div class="conteudo-inicial">
+            <h1>QuizBattle</h1>
+            <p class="subtitulo">Batalha de Conhecimento em Citologia</p>
+            <button id="btn-iniciar-jogo" class="btn-grande">Iniciar Jogo</button>
+            <div class="botoes-adicionais">
+                <button id="btn-treinar" class="btn-pequeno">Modo Treino</button>
+                <button id="btn-ranking" class="btn-pequeno">Ver Ranking</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tela de Menu Principal -->
+    <section id="menu-principal" class="screen">
+        <div class="stats-box">
+            <p>Jogadores cadastrados: <span id="total-jogadores">0</span></p>
+            <p>Campeão atual: <span id="campeao-atual">Nenhum</span></p>
+        </div>
+        <div class="menu-options">
+            <button id="btn-cadastrar" class="btn-menu">Cadastrar Jogador</button>
+            <button id="btn-iniciar-torneio" class="btn-menu">Iniciar Torneio</button>
+            <button id="btn-voltar-menu" class="btn-back">Voltar</button>
+        </div>
+    </section>
+
+    <!-- Tela de Cadastro -->
+    <section id="tela-cadastro" class="screen">
+        <h2>Cadastro de Jogador</h2>
+        <div class="form-group">
+            <input type="text" id="nome-jogador" placeholder="Digite seu nome" maxlength="20">
+            <button id="btn-confirmar-cadastro" class="btn-action">Confirmar</button>
+        </div>
+        <button id="btn-voltar-cadastro" class="btn-back">Voltar</button>
+    </section>
+
+    <!-- Tela de Ranking -->
+    <section id="tela-ranking" class="screen">
+        <h2>Ranking de Jogadores</h2>
+        <div class="table-container">
+            <table id="tabela-ranking">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Nome</th>
+                        <th>Vitórias</th>
+                        <th>Derrotas</th>
+                        <th>Acertos</th>
+                        <th>Nível</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <button id="btn-voltar-ranking" class="btn-back">Voltar</button>
+    </section>
+
+    <!-- Tela de Torneio -->
+    <section id="tela-torneio" class="screen">
+        <h2 id="titulo-torneio">Torneio de Citologia</h2>
+        <div id="info-torneio">
+            <p>Rodada: <span id="rodada-atual">-</span></p>
+            <p>Jogadores restantes: <span id="jogadores-restantes">-</span></p>
+        </div>
+        <div id="batalha-container"></div>
+        <button id="btn-voltar-torneio" class="btn-back">Voltar</button>
+    </section>
+
+    <!-- Tela de Batalha -->
+    <section id="tela-batalha" class="screen">
+        <div class="battle-header">
+            <h2 id="titulo-batalha">Batalha</h2>
+            <div class="health-bars">
+                <div class="player-health">
+                    <span id="nome-jogador1">Jogador 1</span>
+                    <div class="health-bar">
+                        <div id="barra-vida-jogador1" class="health-fill"></div>
+                    </div>
+                    <span id="vida-jogador1">100 HP</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="player-health">
+                    <span id="nome-jogador2">Jogador 2</span>
+                    <div class="health-bar">
+                        <div id="barra-vida-jogador2" class="health-fill"></div>
+                    </div>
+                    <span id="vida-jogador2">100 HP</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="pergunta-container">
+            <div class="question-box">
+                <p id="texto-pergunta">Selecione 'Iniciar Batalha' para começar</p>
+                <div id="alternativas-container" class="alternativas"></div>
+            </div>
+        </div>
+
+        <div class="battle-actions">
+            <button id="btn-iniciar-batalha" class="btn-action">Iniciar Batalha</button>
+            <button id="btn-pular-vez" class="btn-action" disabled>Pular Vez</button>
+        </div>
+    </section>
+
+    <!-- Tela de Resultado -->
+    <section id="tela-resultado" class="screen">
+        <h2 id="titulo-resultado">Resultado</h2>
+        <div id="resultado-container">
+            <p id="texto-resultado"></p>
+            <div id="trofeu-container"></div>
+        </div>
+        <button id="btn-continuar-torneio" class="btn-action">Continuar Torneio</button>
+        <button id="btn-voltar-menu-final" class="btn-back">Voltar ao Menu</button>
+    </section>
+
+    <!-- Tela de Treino -->
+    <section id="tela-treino" class="screen">
+        <h2>Modo Treino - Citologia</h2>
+        <div class="materiais-container">
+            <div class="material-card" data-pdf="citologia-basica.pdf">
+                <div class="pdf-icon">📄</div>
+                <h3>Citologia Básica</h3>
+                <p>Conceitos fundamentais</p>
+            </div>
+            <div class="material-card" data-pdf="organelas.pdf">
+                <div class="pdf-icon">📄</div>
+                <h3>Organelas Celulares</h3>
+                <p>Estruturas e funções</p>
+            </div>
+            <div class="material-card" data-pdf="membrana-celular.pdf">
+                <div class="pdf-icon">📄</div>
+                <h3>Membrana Celular</h3>
+                <p>Transporte e estrutura</p>
+            </div>
+        </div>
+        <button id="btn-voltar-treino" class="btn-back">Voltar</button>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        // Animação de células na tela inicial
+        document.addEventListener('DOMContentLoaded', function() {
+            const animacaoContainer = document.getElementById('animacao-celulas');
+            const tiposCelulas = ['🦠', '🧫', '🧬', '🔬', '⚗️'];
+            
+            for (let i = 0; i < 15; i++) {
+                const celula = document.createElement('div');
+                celula.className = 'celula';
+                celula.textContent = tiposCelulas[Math.floor(Math.random() * tiposCelulas.length)];
+                celula.style.left = Math.random() * 100 + 'vw';
+                celula.style.top = Math.random() * 100 + 'vh';
+                celula.style.fontSize = (Math.random() * 20 + 10) + 'px';
+                celula.style.animation = `moverCelulas ${Math.random() * 30 + 20}s linear infinite`;
+                celula.style.animationDelay = Math.random() * 5 + 's';
+                animacaoContainer.appendChild(celula);
+            }
+        });
+    </script>
+</body>
+</html>
